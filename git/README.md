@@ -1,133 +1,132 @@
 # GIT
 
-## Résumé:
+## Summary:
 
 ## GIT
 
-Git est un système de gestion de versions qui permet de suivre les modifications dans un projet. Les commits enregistrent des snapshots du code, les branches permettent le développement parallèle, et les fusions intègrent les changements. Les Pull Requests facilitent la collaboration en permettant l'examen avant la fusion. Cloner crée une copie locale, pousser envoie des commits vers un dépôt distant, et tirer récupère les changements. La commande "git status" donne l'état des fichiers, et le fichier .gitignore spécifie ceux à ignorer. En résumé, Git offre un contrôle précis sur l'évolution des projets, favorise la collaboration et permet une gestion efficace des versions.
+Git is a version control system that allows tracking changes in a project. Commits record snapshots of the code, branches enable parallel development, and merges incorporate changes. Pull Requests facilitate collaboration by allowing review before merging. Cloning creates a local copy, pushing sends commits to a remote repository, and pulling retrieves changes. The "git status" command provides the file status, and the .gitignore file specifies files to ignore. In summary, Git offers precise control over project evolution, promotes collaboration, and enables efficient version management.
 
 ## GITHUB
 
-GitHub est une plateforme de développement collaborative basée sur Git, offrant des fonctionnalités avancées pour le stockage, la gestion et la collaboration autour des dépôts Git.
+GitHub is a collaborative development platform based on Git, offering advanced features for storage, management, and collaboration around Git repositories.
 
-1. Dépôts :
+1. Repositories:
 
-GitHub héberge des dépôts Git, qui sont des espaces de stockage pour les projets, contenant l'historique des versions et les fichiers associés.
+GitHub hosts Git repositories, which are storage spaces for projects containing version history and associated files.
 
-2. Collaboration :
+2. Collaboration:
 
-Facilite la collaboration entre développeurs en permettant le partage de dépôts, les Pull Requests pour l'examen de code, et les discussions autour des modifications.
+Facilitates collaboration among developers by allowing repository sharing, Pull Requests for code review, and discussions about changes.
 
-3. Gestion de Projet :
+3. Project Management:
 
-Offre des fonctionnalités de gestion de projet avec des tableaux Kanban, des problèmes, et des projets, facilitant le suivi des tâches et des problèmes.
+Offers project management features with Kanban boards, issues, and projects, making it easy to track tasks and issues.
 
-4. Intégration Continue :
+4. Continuous Integration:
 
-Prise en charge de l'intégration continue avec des services comme Actions GitHub, permettant l'automatisation des tests et des déploiements.
+Supports continuous integration with services like GitHub Actions, enabling automation of tests and deployments.
 
-5. Hébergement de Pages :
+5. Hosting Pages:
 
-Permet l'hébergement de sites web statiques directement depuis les dépôts, utilisant le service GitHub Pages.
+Allows hosting static websites directly from repositories using the GitHub Pages service.
 
-6. Réseau Social :
+6. Social Network:
 
-GitHub fonctionne comme un réseau social pour les développeurs, facilitant la découverte de projets, le suivi d'autres développeurs, et la participation à des communautés open source.
+GitHub functions as a social network for developers, making it easy to discover projects, follow other developers, and participate in open source communities.
 
-En résumé, GitHub est une plateforme complète qui simplifie la gestion de projets Git, favorise la collaboration entre les développeurs, offre des outils de gestion de projet avancés, et fonctionne comme une communauté sociale pour les passionnés de développement.
+In summary, GitHub is a comprehensive platform that simplifies Git project management, encourages collaboration among developers, provides advanced project management tools, and operates as a social community for development enthusiasts.
 
-## GIT et GITHUB
+## GIT and GITHUB
 
-L'utilisation de Git et GitHub implique plusieurs étapes, de la configuration initiale à la gestion quotidienne des projets. Voici un guide général :
+Using Git and GitHub involves several steps, from initial configuration to daily project management. Here is a general guide:
 
-### Configuration initiale :
-1. Installer Git :
+### Initial Configuration:
+1. Install Git:
 
-* Téléchargez et installez Git depuis git-scm.com.
-* Configurez votre nom d'utilisateur et votre adresse e-mail via la commande :
+* Download and install Git from git-scm.com.
+* Configure your username and email using the command:
 ```bash
-git config --global user.name "Votre Nom"
-git config --global user.email "votre@email.com"
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
 ```
 
-2. Créer un compte GitHub :
+2. Create a GitHub account:
 
-* Allez sur GitHub et créez un compte.
+* Go to GitHub and create an account.
 
-3. Générer une paire de clés SSH (optionnel mais recommandé) :
+3. Generate an SSH key pair (optional but recommended):
 
-* Suivez les instructions ici pour générer des clés SSH.
+* Follow instructions here to generate SSH keys.
 
-### Créer un nouveau dépôt (repository) :
-1. Initialiser un dépôt local :
+### Create a New Repository:
+1. Initialize a local repository:
 
-* Utilisez la commande git init dans le répertoire de votre projet.
-2. Ajouter des fichiers au suivi de Git :
+* Use the git init command in your project directory.
+2. Add files to Git tracking:
 
-* Utilisez git add pour ajouter des fichiers au suivi de Git.
+* Use git add to add files to Git tracking.
 ```bash
-git add fichier1 fichier2
+git add file1 file2
 ```
 
-3. Faire un commit :
+3. Make a commit:
 
-* Enregistrez les modifications avec un commit.
+* Save changes with a commit.
 ```bash
-git commit -m "Message descriptif"
+git commit -m "Descriptive message"
 ```
 
-### Travailler avec des branches :
-1. Créer une nouvelle branche :
+### Working with Branches:
+1. Create a new branch:
 
-* Utilisez git branch pour créer une nouvelle branche.
+* Use git branch to create a new branch.
 ```bash
-git branch nom_de_la_branche
+git branch branch_name
 ```
 
-2. Basculer entre les branches :
+2. Switch between branches:
 
-* Utilisez git checkout pour changer de branche.
+* Use git checkout to switch branches.
 ```bash
-git checkout nom_de_la_branche
+git checkout branch_name
 ```
 
-3. Fusionner des branches :
+3. Merge branches:
 
-* Fusionnez une branche avec git merge.
+* Merge a branch using git merge.
 ```bash
-git merge nom_de_la_branche
+git merge branch_name
 ```
 
-### Travailler avec GitHub :
-1. Créer un dépôt sur GitHub :
+### Working with GitHub:
+1. Create a repository on GitHub:
 
-* Sur GitHub, créez un nouveau dépôt.
+* On GitHub, create a new repository.
 
-2. Lier le dépôt local à GitHub :
+2. Link the local repository to GitHub:
 
-* Ajoutez le dépôt distant avec git remote.
+* Add the remote repository with git remote.
 ```bash
-git remote add origin lien_vers_votre_depot_github.git
+git remote add origin link_to_your_github_repo.git
 ```
 
-3. Pousser des commits sur GitHub :
+3. Push commits to GitHub:
 
-* Utilisez git push pour envoyer vos commits sur GitHub.
+* Use git push to send your commits to GitHub.
 ```bash
-git push -u origin nom_de_votre_branche
+git push -u origin your_branch_name
 ```
 
-4. Créer une Pull Request (PR) :
+4. Create a Pull Request (PR):
 
-* Sur GitHub, créez une PR pour demander la fusion de vos modifications.
+* On GitHub, create a PR to request the merging of your changes.
 
-5. Récupérer des modifications depuis GitHub :
+5. Fetch changes from GitHub:
 
-* Utilisez git pull pour récupérer les modifications depuis GitHub.
+* Use git pull to retrieve changes from GitHub.
 ```bash
-git pull origin nom_de_votre_branche
+git pull origin your_branch_name
 ```
-
 
 ## Resources:
 * [Resources To Learn Git](https://docs.github.com/en/get-started/quickstart/set-up-git)
