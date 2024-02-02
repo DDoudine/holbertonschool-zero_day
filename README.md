@@ -1,53 +1,53 @@
 # GIT
 
-## Résumé:
+## Summary:
 
-Git est un système de gestion de versions décentralisé largement utilisé dans le développement logiciel. Voici un résumé des concepts clés de Git :
+Git is a widely used decentralized version control system in software development. Here is a summary of key Git concepts:
 
-1. Dépôt (Repository) :
+1. **Repository:**
 
-* Un dépôt Git est un espace de stockage qui contient l'historique des modifications d'un projet.
-* Il peut être local sur votre machine ou distant sur un serveur.
+   * A Git repository is a storage space containing the version history of a project.
+   * It can be local on your machine or remote on a server.
 
-2. Commit :
+2. **Commit:**
 
-* Un commit représente une modification spécifique dans le projet, accompagnée d'un message descriptif.
-* Il crée un point dans l'historique du projet.
+   * A commit represents a specific change in the project, accompanied by a descriptive message.
+   * It creates a point in the project's history.
 
-3. Branche (Branch) :
+3. **Branch:**
 
-* Une branche est une ligne de développement indépendante qui permet de travailler sur des fonctionnalités ou corrections sans affecter la branche principale (généralement appelée "master" ou "main").
+   * A branch is an independent line of development that allows working on features or fixes without affecting the main branch (usually called "master" or "main").
 
-4. Fusion (Merge) :
+4. **Merge:**
 
-* La fusion combine les modifications de deux branches différentes.
-* Cela permet d'incorporer les développements réalisés sur une branche dans une autre.
+   * Merging combines changes from two different branches.
+   * It allows incorporating developments made on one branch into another.
 
-5. Pull Request (Demande de tirage) :
+5. **Pull Request:**
 
-* Une Pull Request (PR) est une fonctionnalité de certains services Git, tels que GitHub, permettant de soumettre des modifications pour examen avant la fusion.
+   * A Pull Request (PR) is a feature of certain Git services, such as GitHub, allowing the submission of changes for review before merging.
 
-6. Clone :
+6. **Clone:**
 
-* Cloner un dépôt signifie créer une copie locale d'un dépôt distant sur votre machine.
+   * Cloning a repository means creating a local copy of a remote repository on your machine.
 
-7. Pousser (Push) :
+7. **Push:**
 
-* Pousser signifie envoyer les modifications locales vers un dépôt distant.
+   * Pushing means sending local changes to a remote repository.
 
-8. Tirer (Pull) :
+8. **Pull:**
 
-* Tirer récupère les modifications d'un dépôt distant et les intègre dans votre dépôt local.
+   * Pulling retrieves changes from a remote repository and integrates them into your local repository.
 
-9. Récapitulatif (Status) :
+9. **Status:**
 
-* La commande "git status" affiche l'état des fichiers dans le dépôt, indiquant s'ils ont été modifiés, ajoutés ou supprimés.
+   * The "git status" command displays the status of files in the repository, indicating whether they have been modified, added, or deleted.
 
-10. Ignorer des fichiers (Gitignore) :
+10. **Ignoring Files (Gitignore):**
 
-* Un fichier ```bash.gitignore``` spécifie les fichiers et répertoires à ignorer lors des opérations Git, tels que les fichiers temporaires ou les fichiers de configuration.
+   * A `.gitignore` file specifies files and directories to ignore during Git operations, such as temporary files or configuration files.
 
-En résumé, Git est un système de gestion de versions qui permet de suivre les modifications, de collaborer sur des projets, de travailler sur des fonctionnalités indépendantes via des branches, et de fusionner les changements de manière contrôlée. Les commandes de base incluent commit, branch, merge, pull, push, status, et ignore.
+In summary, Git is a version control system that allows tracking changes, collaborating on projects, working on independent features via branches, and merging changes in a controlled manner. Basic commands include commit, branch, merge, pull, push, status, and ignore.
 
 ## Concepts:
 For this projects, we expect you to look at these concepts :
